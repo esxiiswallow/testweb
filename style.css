@@ -51,14 +51,14 @@ footer {
     margin-right: 5px;
 }
 .content h2{
-    text-indent: 20px; /* 設定段落的縮進，可以根據需要調整數值 */
+    /*text-indent: 20px; /* 設定段落的縮進，可以根據需要調整數值 */
 }
 .content p {
     font-size: 20px; /* 設定字體大小為16像素 */
-    text-indent: 40px; /* 設定段落的縮進，可以根據需要調整數值 */
+    /*text-indent: 40px; /* 設定段落的縮進，可以根據需要調整數值 */
 }
 .littitle{
-    text-indent: 40px !important;
+    /*text-indent: 40px !important;*/
 }
 .cimg{
     position: absolute;
@@ -380,6 +380,13 @@ footer {
     position: relative;
     display: block;
 }
+.goleft{
+    left: 0vw;
+}
+.undlogot{
+    left: 12vw;
+    font-size: 3.5vw;
+}
 #logoimg{
     position: relative;
     display: block;
@@ -415,4 +422,14 @@ footer {
 }
 .downbut:hover{
     color: #FFF200;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
 }
