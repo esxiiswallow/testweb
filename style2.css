@@ -57,6 +57,7 @@ footer {
     .content p {
         font-size: 20px; /* 設定字體大小為16像素 */
         /*text-indent: 40px; /* 設定段落的縮進，可以根據需要調整數值 */
+        width: 90vw;
     }
     .littitlet{
         font-weight: bold;
