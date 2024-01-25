@@ -7,7 +7,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background-color: #FFFFFF;
     font-family: 'CustomFont', sans-serif;
     /*font-family: 'CODEC PRO', sans-serif;*/
@@ -97,6 +97,14 @@ footer {
     left: 5vw;
     width: 90vw;
     overflow-wrap: break-word;
+}
+.t3-1{/*半螢幕文字內容*/
+    display: block;
+    position: relative;
+    left: 10vw;
+    width: 30vw;
+    overflow-wrap: break-word;
+    line-height: 1.2;
 }
 .textfadein{
     opacity: 1;
@@ -271,7 +279,7 @@ footer {
 #p2-2{
     position: relative;
     width: 40vw;
-    left: 0vw;
+    left: 10vw;
 }
 .p3{
     background: linear-gradient(to bottom, transparent 3%, #DDDDDD 25%);
@@ -402,7 +410,7 @@ footer {
 }
 .t2-W{/*半螢幕文字內容*/
     position: relative;
-    left: 5vw;
+    left: 7vw;
     width: 40vw;
     overflow-wrap: break-word;
     color: white;
@@ -414,6 +422,7 @@ footer {
 }
 #facebookbut{
     position: relative;
+    left: 5vw;
     top: 2vh;
 }
 .downbut{
