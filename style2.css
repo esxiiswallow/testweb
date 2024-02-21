@@ -27,6 +27,9 @@ footer {
     width: 100vw;
 }
 @media (orientation: portrait){
+    .content{
+        overflow-x: hidden !important;
+    }
     .content h2{
         /*text-indent: 20px; /* 設定段落的縮進，可以根據需要調整數值 */
     }
