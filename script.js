@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.querySelector("img").style.opacity = "1";
 
     let topbass = document.getElementById("topbass")
+    topbass.scrollIntoView({
+        behavior:"smooth"
+    });
 
     let top = document.getElementById('top');
     //let logo = document.getElementById('logo');
