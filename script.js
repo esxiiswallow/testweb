@@ -1,21 +1,7 @@
-document.addEventListener('touchmove', function(event) {
-    // 检查触摸滚动的方向
-    if (event.touches.length > 1 || (event.scale && event.scale !== 1)) return;
-    var x = event.touches[0].clientX - event.target.getBoundingClientRect().left;
-    var y = event.touches[0].clientY - event.target.getBoundingClientRect().top;
-    
-    // 如果横向滚动距离大于纵向滚动距离，则阻止默认滚动行为
-    if (Math.abs(x) > Math.abs(y)) {
-        event.preventDefault();
-    }
-}, { passive: false });
 document.addEventListener("DOMContentLoaded", function(event) {
     document.querySelector("img").style.opacity = "1";
 
     let topbass = document.getElementById("topbass")
-    topbass.scrollIntoView({
-        behavior:"smooth"
-    });
 
     let top = document.getElementById('top');
     //let logo = document.getElementById('logo');
